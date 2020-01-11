@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <title>Bootstrap 4</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="Home">
+        <!-- NAVBAR  -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a href="#index.html" class="navbar-brand"><img src="img/Hackerfarmlogo.jpg" alt="Logo" height="60px"
+                        width="100px"><span class="font-weight-bold">Hacker Farm</span></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsiblenavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsiblenavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item font-weight-bold">
+                            <a href="#Home" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item font-weight-bold">
+                            <a href="#AboutUs" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item font-weight-bold">
+                            <a href="#MeetTheTeam" class="nav-link">Meet The Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/mobileAndWebDevelopment.jpg" alt="Build Skills" width="100%" height="700px">
+                    <div class="carousel-caption">
+                        <h3>Learn and Build Skills</h3>
+                        <p>We teach you to build skills by focussing on the foundations</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/serviceAndVolunteer.jpg" alt="ServiceAndVoluteer" width="100%" height="700px">
+                    <div class="carousel-caption" style="color:#065c03">
+                        <h3 class="font-weight-bold">Service & Voluteer</h3>
+                        <p class="font-weight-bold">Join Us and be a part of our Service and Volunteer Program</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hangOut.jpg" alt="New York" width="100%" height="700px">
+                    <div class="carousel-caption-new" style="color:rgb(216, 42, 65)">
+                        <h3 class="font-weight-bold">Hangout</h3>
+                        <p class="font-weight-bold">Feel Free to hangout with Co-Hackers</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <!--Jumbotron-->
+    <div id="AboutUs">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <h5 class="text-center text-dark">About Us</h5>
+                <div class="heading-underline"></div>
+            </div>
+        </div>
+        <!--About Us Explained-->
+        <div class="row no-padding">
+            <div class="col-sm-4">
+                <div class="portfolio">
+                    <a href="img/WAD.jpeg" target="_blank"> <img src="img/WAD.jpeg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="portfolio">
+                    <a href="img/Volunteer.jpeg" target="_blank"> <img src="img/Volunteer.jpeg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="portfolio">
+                    <a href="img/Hangout.jpeg" target="_blank"> <img src="img/Hangout.jpeg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row no-padding">
+        <div class="col-sm-4">
+            <div class="portfolio">
+                <a href="img/PractiseYoga.jpeg" target="_blank"> <img src="img/PractiseYoga.jpeg" alt=""></a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="portfolio">
+                <a href="img/PractiseYoga.jpeg" target="_blank"> <img src="img/PractiseYoga.jpeg" alt=""></a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="portfolio">
+                <a href="img/JoinUs.jpeg" target="_blank"> <img src="img/JoinUs.jpeg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--Jumbotron-->
+    <div id="MeetTheTeam">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <h5 class="text-center text-dark">Meet The Team</h5>
+                <div class="heading-underline"></div>
+            </div>
+        </div>
+        <!--Meet the team Cards-->
+        <div class="row no-padding">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="img/Avatar1.png" alt="Rajanshu" height="300px">
+                    <div class="card-body">
+                        <h4 class="card-title">Rajanshu Ujjwal</h4>
+                        <p class="card-text">You could call me Sunny. I love helping young minds build technology
+                            skills
+                            and live a meaningful life</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                        <a href="mailto:rajanshu.ujjwal@gmail.com" class="btn btn-primary float-right">MAIL ME</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Tony Varghese</h4>
+                        <p class="card-text"> I love meeting people and look for solutions to world challenges</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                        <a href="mailto:tony.careermail@gmail.com" class="btn btn-primary float-right">MAIL ME</a>
+                    </div>
+                    <img src="img/Avatar4.png" alt="tony" height="300px">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="img/Avatar1.png" alt="Billgates" height="300px">
+                    <div class="card-body">
+                        <h4 class="card-title">Bill Gates</h4>
+                        <p class="card-text">You could call me Microsoft. I just love these guys. They are my Team</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                        <a href="mailto:rajanshu.ujjwal@gmail.com" class="btn btn-primary float-right">MAIL ME</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
